@@ -5,7 +5,7 @@ describe( 'index.js', () => {
 
   beforeEach( () => {
     spy = sinon.spy( console, 'log' );
-  } );
+  } ); 
 
   afterEach( () => {
     spy.restore();
